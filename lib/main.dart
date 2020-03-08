@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,//去掉app Debug
       initialRoute: '/',//初始化加载路由
       //命名路由要放在根组件
       theme: ThemeData(

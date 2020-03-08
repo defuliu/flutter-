@@ -10,7 +10,9 @@ class Settingpage extends StatefulWidget {
 class _SettingpageState extends State<Settingpage> {
   @override
   Widget build(BuildContext context) {
-    return ListView(children: <Widget>[
+    return ListView(
+    
+      children: <Widget>[
       ListTile(title:Text('我是一个文本')),
       ListTile(title:Text('我是1一个文本')),
       ListTile(title:Text('我是2一个文本')),
@@ -18,6 +20,21 @@ class _SettingpageState extends State<Settingpage> {
       ListTile(title:Text('我是4一个文本')),
       ListTile(title:Text('我是5一个文本')),
       ListTile(title:Text('我是6一个文本')),
+
+      RaisedButton(
+        child: Text('跳转到登录界面'),
+        onPressed:(){
+          Navigator.pushNamed(context, '/login');
+
+      }),
+
+       RaisedButton(
+         child: Text('跳转到注册界面'),
+         onPressed:(){
+            Navigator.pushNamed(context, '/registerFirst');
+      }),
+
+
     ],);
   }
 }
