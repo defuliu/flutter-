@@ -14,6 +14,17 @@ import '../pages/TabController.dart';
 import '../pages/User.dart';
 import '../pages/BottonComponent.dart';
 import '../pages/FloatButton.dart';
+import '../pages/TextField.dart';
+import '../pages/CheckBox.dart';
+import '../pages/RadioDemo.dart';
+import '../pages/Switch.dart';
+import '../pages/FromDemo.dart';
+import '../pages/DatePicker.dart';
+import '../pages/ThirdDatePicker.dart';
+import '../pages/swiper.dart';
+import '../pages/Dialog.dart';
+import '../pages/Https.dart';
+import '../pages/NewsRefresh.dart';
 
 final routes= {
         '/':(context)=>Tabs(),
@@ -30,6 +41,19 @@ final routes= {
         '/user':(context)=>UserPage(),
         '/bottonComponent':(context)=>BottonComponentPage(),
         '/floatButtton':(context)=>FloatButtonPage(),
+        '/textField':(context)=>TextFieldPage(),
+        '/checkBox':(context)=>CheckBoxPage(),
+        '/radio':(context)=>RadioDemoPage(),
+         '/switch':(context)=>SwitchPage(),//formDemo
+         '/fromDemo':(context)=>FormDemoPage(),
+         '/datePicker':(context)=>DatePickerPage(),
+         '/thridDatePicker':(context)=> ThridDatePickerPage(),
+         '/swiper':(context)=> SwiperPage(),
+         '/dialog':(context)=> DialogPage(),
+          '/https':(context)=> HttpsPage(),
+          '/newsRefresh':(context)=> NewsRefreshPage(),
+  
+         
         
 };
 
